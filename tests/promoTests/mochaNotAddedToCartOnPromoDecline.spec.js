@@ -1,4 +1,4 @@
-import { test } from '../../tests/_fixtures/fixtures';
+import { test } from '../fixtures/fixtures';
 
 
 test('Assert discounted Mocha not added to the Cart after promo accepting',

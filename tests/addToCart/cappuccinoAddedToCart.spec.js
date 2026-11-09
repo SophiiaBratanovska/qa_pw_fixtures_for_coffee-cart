@@ -1,9 +1,9 @@
-import { test } from '../../tests/_fixtures/fixtures';
-import { coffeePrices } from '../../src/constants/constants';
+import { test } from '../fixtures/fixtures';
+import { coffeePrices } from '../../src/constants';
 
 import {
   unitPriceFormatStr,
-  priceFormatStr 
+  priceFormatStr
 } from '../../src/common/helpers/getPriceForQuantity';
 
 test('Check Cappuccino correctly added to the Cart', async ({ 

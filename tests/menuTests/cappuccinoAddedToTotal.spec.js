@@ -1,5 +1,5 @@
-import { test } from '../../tests/_fixtures/fixtures';
-import { coffeePrices } from '../../src/constants/constants';
+import { test } from '../fixtures/fixtures';
+import { coffeePrices } from '../../src/constants';
 
 import {
   totalPriceFormatStr,

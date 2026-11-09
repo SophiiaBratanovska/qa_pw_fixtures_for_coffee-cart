@@ -1,4 +1,4 @@
-import { test } from '../../tests/_fixtures/fixtures';
+import { test } from '../fixtures/fixtures';
 
 test('Assert empty cart shows correct message', async ({ cartPage }) => {
   await cartPage.open();
